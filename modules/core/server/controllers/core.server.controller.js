@@ -5,6 +5,7 @@
  */
 exports.renderIndex = function (req, res) {
   res.render('modules/core/server/views/index', {
+    title: "The beginning",
     user: req.user || null
   });
 };
