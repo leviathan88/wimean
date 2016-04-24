@@ -5,7 +5,7 @@
  */
 exports.renderIndex = function (req, res) {
   res.render('modules/core/server/views/index', {
-    title: "The beginning",
+    title: "The beginning begins here",
     user: req.user || null
   });
 };
